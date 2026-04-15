@@ -62,8 +62,7 @@ class JobScheduler:
         self.last_execution = now_key
             
         try:
-            print(f"\n⏰ Job triggered at {now.strftime('%H:%M:%S')}")
-            logging.info("Job triggered")
+            logging.info(f"Job execution for {now.strftime('%H:%M:%S')} started")
 
             # 1. SCRAPE DATA
             csv_file = self.scraper.run_once()
@@ -75,7 +74,7 @@ class JobScheduler:
                 print("🚨 No XML file found")
                 return
 
-            # 3. COMPUTE TARGET HOUR
+            # 3. TIME LOGIC
             hour_index = get_hour_index(offset_hours=2)
             hour_label = format_hour_label(hour_index)
 
@@ -89,3 +88,8 @@ class JobScheduler:
 
             # 5. ALERT IF NEEDED
             self.alerter.trigger_alert(result)
+
+            self.logger.info(f"Job execution for {now.strftime('%H:%M:%S')} completed")
+
+        except Exception as e:
+            self.logger.error(f"Job execution for {now.strftime('%H:%M:%S')} failed: {e}")

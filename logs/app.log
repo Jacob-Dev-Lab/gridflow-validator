@@ -1,0 +1,13 @@
+2026-04-15 09:44:04,610 | INFO | Scheduler started
+2026-04-15 09:45:04,620 | INFO | Job execution for 08:45:04 started
+2026-04-15 09:47:40,879 | ERROR | Job execution for 08:45:04 failed: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2026-04-15 09:48:34,350 | INFO | Scheduler stopped manually
+2026-04-15 09:48:34,358 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/f4649dd2-d089-447c-8ed0-fa5aba81549d
+2026-04-15 09:48:38,450 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E3ECB1B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f4649dd2-d089-447c-8ed0-fa5aba81549d
+2026-04-15 09:48:42,536 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E3ECB24D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f4649dd2-d089-447c-8ed0-fa5aba81549d
