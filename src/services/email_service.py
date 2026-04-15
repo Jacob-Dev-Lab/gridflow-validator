@@ -19,6 +19,7 @@ class EmailService:
 
         msg = MIMEText(message)
         msg["Subject"] = subject
+
         msg["From"] = EMAIL_SENDER
         msg["To"] = ", ".join(EMAIL_RECIPIENTS)
 

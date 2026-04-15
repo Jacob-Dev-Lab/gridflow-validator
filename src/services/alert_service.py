@@ -48,8 +48,8 @@ class AlertService:
             Status: INVALID ❌
 
             Please investigate immediately.
-            
-            📢 Suggested Correct Flow Value: {result.csv_val}
+
+            📢 Suggested Correct Flow Value: {result.csv_value}
             """
 
     def _beep_alert(self):

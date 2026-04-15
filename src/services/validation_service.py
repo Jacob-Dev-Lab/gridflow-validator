@@ -1,7 +1,7 @@
 import logging
 
 from integrations.xml_reader import DSXMLReader
-#from utils.file_utils import get_latest_file
+from utils.file_utils import get_latest_file
 from core.config import CSV_DIR, XML_DIR
 from models.validation_result import ValidationResult
 

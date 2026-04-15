@@ -22,6 +22,15 @@ class DSXMLReader:
             return self.time_series[1]
         else:
             raise ValueError("Invalid direction (FRGB or GBFR expected)")
+        
+    def _get_int_value(self, element, tag_name: str) -> int:
+        if element is None:
+            raise ValueError(f"{tag_name} element not found")
+
+        if element.text is None:
+            raise ValueError(f"{tag_name} value is missing")
+
+        return int(element.text)
 
     def get_quantity_for_hour(self, hour_index: int, direction: str) -> int:
         """
@@ -30,6 +39,10 @@ class DSXMLReader:
 
         series = self._get_series(direction)
         period = series.find('ns:Period', NAMESPACE)
+
+        if period is None:
+            raise ValueError(f"{period} value is missing")
+        
         points = period.findall('ns:Point', NAMESPACE)
 
         target_seconds = (hour_index + 1) * 3600
@@ -37,8 +50,13 @@ class DSXMLReader:
         last_value = None
 
         for point in points:
-            position = int(point.find('ns:position', NAMESPACE).text)
-            quantity = int(point.find('ns:quantity', NAMESPACE).text)
+            position = self._get_int_value(
+                point.find('ns:position', NAMESPACE), 
+                "position")
+            
+            quantity = self._get_int_value(
+                point.find('ns:quantity', NAMESPACE), 
+                "quantity")
 
             if position <= target_seconds:
                 last_value = quantity
