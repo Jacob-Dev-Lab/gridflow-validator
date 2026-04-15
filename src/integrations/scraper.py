@@ -106,7 +106,12 @@ class RNPScraper:
         return filepath
 
     def run_once(self):
-        self.open_site()
+        if not self._is_initialized:
+            self.open_site()
+            self._is_initialized = True
+
+        self.driver.refresh()
+        self._set_business_day_if_needed()
         data = self.scrape_table()
         return self.save_to_csv(data)
 
