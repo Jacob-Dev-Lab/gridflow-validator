@@ -1,11 +1,18 @@
+import os
 import xml.etree.ElementTree as ET
 
 NAMESPACE = {
     'ns': 'urn:iec62325.351:tc57wg16:451-2:scheduledocument:5:1'
 }
 
+# # Defined and ensured the existence of the directory where DS-XML files are stored
+# WATCH_DIR = os.path.abspath("ds_files")
+# os.makedirs(WATCH_DIR, exist_ok=True)
+# seen_files = set()
+
 
 class DSXMLReader:
+
     def __init__(self, xml_file: str):
         self.xml_file = xml_file
         self.tree = ET.parse(xml_file)
@@ -67,3 +74,22 @@ class DSXMLReader:
             raise ValueError(f"No value found for hour {hour_index}")
 
         return last_value
+    
+    # def monitor(self):
+    #     """
+    #     Monitors the DS directory for newly added XML files.
+    #     Prints the name of any new XML file detected.
+    #     Note: Currently checks only once and maintains state within function scope.
+    #     """
+    #     global seen_files
+    #     current_files = set(f for f in os.listdir(WATCH_DIR) if f .endswith('.xml'))
+
+    #     new_files = current_files - seen_files
+    #     if new_files:
+    #         seen_files.update(new_files)
+    #         result = list(new_files)
+    #     else:
+    #         result = []
+            
+    #     seen_files.update(current_files)
+    #     return result  # Return the list of new files detected

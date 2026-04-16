@@ -21,3 +21,8 @@ Thumbs.db
 
 # Python test cache
 .pytest_cache/
+
+# Data files/logs
+.csv
+.xml
+.log

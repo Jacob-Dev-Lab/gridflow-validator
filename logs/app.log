@@ -11,3 +11,399 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-04-15 09:48:34,358 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/f4649dd2-d089-447c-8ed0-fa5aba81549d
 2026-04-15 09:48:38,450 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E3ECB1B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f4649dd2-d089-447c-8ed0-fa5aba81549d
 2026-04-15 09:48:42,536 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E3ECB24D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f4649dd2-d089-447c-8ed0-fa5aba81549d
+2026-04-15 10:29:53,134 | INFO | Scheduler started
+2026-04-15 10:30:03,136 | INFO | Job execution for 09:30:03 started
+2026-04-15 10:30:03,136 | ERROR | Job execution for 09:30:03 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:08,138 | INFO | Job execution for 09:30:08 started
+2026-04-15 10:30:08,138 | ERROR | Job execution for 09:30:08 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:13,140 | INFO | Job execution for 09:30:13 started
+2026-04-15 10:30:13,140 | ERROR | Job execution for 09:30:13 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:18,141 | INFO | Job execution for 09:30:18 started
+2026-04-15 10:30:18,141 | ERROR | Job execution for 09:30:18 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:23,142 | INFO | Job execution for 09:30:23 started
+2026-04-15 10:30:23,142 | ERROR | Job execution for 09:30:23 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:28,143 | INFO | Job execution for 09:30:28 started
+2026-04-15 10:30:28,144 | ERROR | Job execution for 09:30:28 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:33,145 | INFO | Job execution for 09:30:33 started
+2026-04-15 10:30:33,145 | ERROR | Job execution for 09:30:33 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:38,146 | INFO | Job execution for 09:30:38 started
+2026-04-15 10:30:38,146 | ERROR | Job execution for 09:30:38 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:43,147 | INFO | Job execution for 09:30:43 started
+2026-04-15 10:30:43,148 | ERROR | Job execution for 09:30:43 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:48,149 | INFO | Job execution for 09:30:48 started
+2026-04-15 10:30:48,149 | ERROR | Job execution for 09:30:48 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:53,150 | INFO | Job execution for 09:30:53 started
+2026-04-15 10:30:53,150 | ERROR | Job execution for 09:30:53 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:30:58,151 | INFO | Job execution for 09:30:58 started
+2026-04-15 10:30:58,151 | ERROR | Job execution for 09:30:58 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:03,239 | INFO | Job execution for 09:35:03 started
+2026-04-15 10:35:03,239 | ERROR | Job execution for 09:35:03 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:08,240 | INFO | Job execution for 09:35:08 started
+2026-04-15 10:35:08,241 | ERROR | Job execution for 09:35:08 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:13,242 | INFO | Job execution for 09:35:13 started
+2026-04-15 10:35:13,242 | ERROR | Job execution for 09:35:13 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:18,243 | INFO | Job execution for 09:35:18 started
+2026-04-15 10:35:18,243 | ERROR | Job execution for 09:35:18 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:23,244 | INFO | Job execution for 09:35:23 started
+2026-04-15 10:35:23,245 | ERROR | Job execution for 09:35:23 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:28,245 | INFO | Job execution for 09:35:28 started
+2026-04-15 10:35:28,245 | ERROR | Job execution for 09:35:28 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:33,246 | INFO | Job execution for 09:35:33 started
+2026-04-15 10:35:33,247 | ERROR | Job execution for 09:35:33 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:38,247 | INFO | Job execution for 09:35:38 started
+2026-04-15 10:35:38,247 | ERROR | Job execution for 09:35:38 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:43,248 | INFO | Job execution for 09:35:43 started
+2026-04-15 10:35:43,248 | ERROR | Job execution for 09:35:43 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:48,249 | INFO | Job execution for 09:35:48 started
+2026-04-15 10:35:48,250 | ERROR | Job execution for 09:35:48 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:53,251 | INFO | Job execution for 09:35:53 started
+2026-04-15 10:35:53,251 | ERROR | Job execution for 09:35:53 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:35:58,252 | INFO | Job execution for 09:35:58 started
+2026-04-15 10:35:58,252 | ERROR | Job execution for 09:35:58 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:03,353 | INFO | Job execution for 09:40:03 started
+2026-04-15 10:40:03,353 | ERROR | Job execution for 09:40:03 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:08,354 | INFO | Job execution for 09:40:08 started
+2026-04-15 10:40:08,354 | ERROR | Job execution for 09:40:08 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:13,355 | INFO | Job execution for 09:40:13 started
+2026-04-15 10:40:13,355 | ERROR | Job execution for 09:40:13 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:18,356 | INFO | Job execution for 09:40:18 started
+2026-04-15 10:40:18,356 | ERROR | Job execution for 09:40:18 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:23,357 | INFO | Job execution for 09:40:23 started
+2026-04-15 10:40:23,357 | ERROR | Job execution for 09:40:23 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:28,358 | INFO | Job execution for 09:40:28 started
+2026-04-15 10:40:28,359 | ERROR | Job execution for 09:40:28 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:33,359 | INFO | Job execution for 09:40:33 started
+2026-04-15 10:40:33,360 | ERROR | Job execution for 09:40:33 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:38,361 | INFO | Job execution for 09:40:38 started
+2026-04-15 10:40:38,361 | ERROR | Job execution for 09:40:38 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:43,361 | INFO | Job execution for 09:40:43 started
+2026-04-15 10:40:43,362 | ERROR | Job execution for 09:40:43 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:48,363 | INFO | Job execution for 09:40:48 started
+2026-04-15 10:40:48,363 | ERROR | Job execution for 09:40:48 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:53,364 | INFO | Job execution for 09:40:53 started
+2026-04-15 10:40:53,364 | ERROR | Job execution for 09:40:53 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:40:58,366 | INFO | Job execution for 09:40:58 started
+2026-04-15 10:40:58,366 | ERROR | Job execution for 09:40:58 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:03,393 | INFO | Job execution for 09:45:03 started
+2026-04-15 10:45:03,393 | ERROR | Job execution for 09:45:03 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:08,394 | INFO | Job execution for 09:45:08 started
+2026-04-15 10:45:08,394 | ERROR | Job execution for 09:45:08 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:13,395 | INFO | Job execution for 09:45:13 started
+2026-04-15 10:45:13,396 | ERROR | Job execution for 09:45:13 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:18,396 | INFO | Job execution for 09:45:18 started
+2026-04-15 10:45:18,396 | ERROR | Job execution for 09:45:18 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:23,397 | INFO | Job execution for 09:45:23 started
+2026-04-15 10:45:23,397 | ERROR | Job execution for 09:45:23 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:28,397 | INFO | Job execution for 09:45:28 started
+2026-04-15 10:45:28,397 | ERROR | Job execution for 09:45:28 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:33,398 | INFO | Job execution for 09:45:33 started
+2026-04-15 10:45:33,398 | ERROR | Job execution for 09:45:33 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:38,399 | INFO | Job execution for 09:45:38 started
+2026-04-15 10:45:38,399 | ERROR | Job execution for 09:45:38 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:43,400 | INFO | Job execution for 09:45:43 started
+2026-04-15 10:45:43,400 | ERROR | Job execution for 09:45:43 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:48,402 | INFO | Job execution for 09:45:48 started
+2026-04-15 10:45:48,403 | ERROR | Job execution for 09:45:48 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:53,404 | INFO | Job execution for 09:45:53 started
+2026-04-15 10:45:53,404 | ERROR | Job execution for 09:45:53 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:45:58,405 | INFO | Job execution for 09:45:58 started
+2026-04-15 10:45:58,405 | ERROR | Job execution for 09:45:58 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 10:48:16,087 | INFO | Scheduler stopped manually
+2026-04-15 10:48:20,177 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D88296CC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3e403f42-682d-49e4-bb28-adc24001d220
+2026-04-15 10:48:24,255 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D88296E990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3e403f42-682d-49e4-bb28-adc24001d220
+2026-04-15 10:48:28,373 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D88296F110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3e403f42-682d-49e4-bb28-adc24001d220
+2026-04-15 11:11:17,497 | INFO | Scheduler started
+2026-04-15 11:15:02,524 | INFO | Job execution for 10:15:02 started
+2026-04-15 11:15:02,524 | ERROR | Job execution for 10:15:02 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:07,526 | INFO | Job execution for 10:15:07 started
+2026-04-15 11:15:07,526 | ERROR | Job execution for 10:15:07 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:12,527 | INFO | Job execution for 10:15:12 started
+2026-04-15 11:15:12,527 | ERROR | Job execution for 10:15:12 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:17,528 | INFO | Job execution for 10:15:17 started
+2026-04-15 11:15:17,528 | ERROR | Job execution for 10:15:17 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:22,529 | INFO | Job execution for 10:15:22 started
+2026-04-15 11:15:22,529 | ERROR | Job execution for 10:15:22 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:27,532 | INFO | Job execution for 10:15:27 started
+2026-04-15 11:15:27,532 | ERROR | Job execution for 10:15:27 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:32,534 | INFO | Job execution for 10:15:32 started
+2026-04-15 11:15:32,534 | ERROR | Job execution for 10:15:32 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:37,535 | INFO | Job execution for 10:15:37 started
+2026-04-15 11:15:37,535 | ERROR | Job execution for 10:15:37 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:42,536 | INFO | Job execution for 10:15:42 started
+2026-04-15 11:15:42,536 | ERROR | Job execution for 10:15:42 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:47,538 | INFO | Job execution for 10:15:47 started
+2026-04-15 11:15:47,538 | ERROR | Job execution for 10:15:47 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:52,539 | INFO | Job execution for 10:15:52 started
+2026-04-15 11:15:52,539 | ERROR | Job execution for 10:15:52 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:15:57,540 | INFO | Job execution for 10:15:57 started
+2026-04-15 11:15:57,540 | ERROR | Job execution for 10:15:57 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:02,568 | INFO | Job execution for 10:20:02 started
+2026-04-15 11:20:02,568 | ERROR | Job execution for 10:20:02 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:07,569 | INFO | Job execution for 10:20:07 started
+2026-04-15 11:20:07,570 | ERROR | Job execution for 10:20:07 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:12,570 | INFO | Job execution for 10:20:12 started
+2026-04-15 11:20:12,570 | ERROR | Job execution for 10:20:12 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:17,572 | INFO | Job execution for 10:20:17 started
+2026-04-15 11:20:17,573 | ERROR | Job execution for 10:20:17 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:22,574 | INFO | Job execution for 10:20:22 started
+2026-04-15 11:20:22,574 | ERROR | Job execution for 10:20:22 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:27,575 | INFO | Job execution for 10:20:27 started
+2026-04-15 11:20:27,575 | ERROR | Job execution for 10:20:27 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:32,576 | INFO | Job execution for 10:20:32 started
+2026-04-15 11:20:32,576 | ERROR | Job execution for 10:20:32 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:37,577 | INFO | Job execution for 10:20:37 started
+2026-04-15 11:20:37,577 | ERROR | Job execution for 10:20:37 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:42,578 | INFO | Job execution for 10:20:42 started
+2026-04-15 11:20:42,578 | ERROR | Job execution for 10:20:42 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:47,580 | INFO | Job execution for 10:20:47 started
+2026-04-15 11:20:47,580 | ERROR | Job execution for 10:20:47 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:52,582 | INFO | Job execution for 10:20:52 started
+2026-04-15 11:20:52,582 | ERROR | Job execution for 10:20:52 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:20:57,585 | INFO | Job execution for 10:20:57 started
+2026-04-15 11:20:57,585 | ERROR | Job execution for 10:20:57 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:25:02,612 | INFO | Job execution for 10:25:02 started
+2026-04-15 11:25:02,612 | ERROR | Job execution for 10:25:02 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:25:07,613 | INFO | Job execution for 10:25:07 started
+2026-04-15 11:25:07,613 | ERROR | Job execution for 10:25:07 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:25:12,614 | INFO | Job execution for 10:25:12 started
+2026-04-15 11:25:12,614 | ERROR | Job execution for 10:25:12 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:25:17,615 | INFO | Job execution for 10:25:17 started
+2026-04-15 11:25:17,615 | ERROR | Job execution for 10:25:17 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:25:22,616 | INFO | Job execution for 10:25:22 started
+2026-04-15 11:25:22,616 | ERROR | Job execution for 10:25:22 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:25:27,617 | INFO | Job execution for 10:25:27 started
+2026-04-15 11:25:27,617 | ERROR | Job execution for 10:25:27 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:25:28,320 | INFO | Scheduler stopped manually
+2026-04-15 11:25:32,406 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE8356D1D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/02d5126a-d142-4862-adce-7cf46e1cd2f3
+2026-04-15 11:25:36,494 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE8356E450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/02d5126a-d142-4862-adce-7cf46e1cd2f3
+2026-04-15 11:25:40,566 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE8356EC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/02d5126a-d142-4862-adce-7cf46e1cd2f3
+2026-04-15 11:25:58,495 | INFO | Scheduler started
+2026-04-15 11:25:58,496 | INFO | Job execution for 10:25:58 started
+2026-04-15 11:25:58,497 | ERROR | Job execution for 10:25:58 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:26:03,929 | INFO | Scheduler stopped manually
+2026-04-15 11:26:03,931 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/8b61214d-905e-4ac5-af3e-5cc3f7e6fa44
+2026-04-15 11:26:08,004 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002343768DF50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8b61214d-905e-4ac5-af3e-5cc3f7e6fa44
+2026-04-15 11:26:12,111 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002343768E750>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8b61214d-905e-4ac5-af3e-5cc3f7e6fa44
+2026-04-15 11:27:57,896 | INFO | Scheduler started
+2026-04-15 11:30:02,910 | INFO | Job execution for 10:30:02 started
+2026-04-15 11:30:02,910 | ERROR | Job execution for 10:30:02 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:07,911 | INFO | Job execution for 10:30:07 started
+2026-04-15 11:30:07,911 | ERROR | Job execution for 10:30:07 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:12,912 | INFO | Job execution for 10:30:12 started
+2026-04-15 11:30:12,912 | ERROR | Job execution for 10:30:12 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:17,913 | INFO | Job execution for 10:30:17 started
+2026-04-15 11:30:17,913 | ERROR | Job execution for 10:30:17 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:22,914 | INFO | Job execution for 10:30:22 started
+2026-04-15 11:30:22,914 | ERROR | Job execution for 10:30:22 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:27,914 | INFO | Job execution for 10:30:27 started
+2026-04-15 11:30:27,914 | ERROR | Job execution for 10:30:27 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:32,916 | INFO | Job execution for 10:30:32 started
+2026-04-15 11:30:32,916 | ERROR | Job execution for 10:30:32 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:37,916 | INFO | Job execution for 10:30:37 started
+2026-04-15 11:30:37,916 | ERROR | Job execution for 10:30:37 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:42,917 | INFO | Job execution for 10:30:42 started
+2026-04-15 11:30:42,917 | ERROR | Job execution for 10:30:42 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:47,918 | INFO | Job execution for 10:30:47 started
+2026-04-15 11:30:47,918 | ERROR | Job execution for 10:30:47 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:52,919 | INFO | Job execution for 10:30:52 started
+2026-04-15 11:30:52,919 | ERROR | Job execution for 10:30:52 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:30:57,920 | INFO | Job execution for 10:30:57 started
+2026-04-15 11:30:57,920 | ERROR | Job execution for 10:30:57 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:34:31,336 | INFO | Scheduler stopped manually
+2026-04-15 11:34:35,388 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D2D8DCD290>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2c5f0792-3061-46a0-b58a-4423da0a1488
+2026-04-15 11:34:39,563 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D2D8DCE2D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2c5f0792-3061-46a0-b58a-4423da0a1488
+2026-04-15 11:34:43,616 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D2D8DCEAD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2c5f0792-3061-46a0-b58a-4423da0a1488
+2026-04-15 11:35:15,020 | INFO | Scheduler started
+2026-04-15 11:35:15,021 | INFO | Job execution for 10:35:15 started
+2026-04-15 11:35:15,021 | ERROR | Job execution for 10:35:15 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:35:20,022 | INFO | Job execution for 10:35:20 started
+2026-04-15 11:35:20,022 | ERROR | Job execution for 10:35:20 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:35:25,024 | INFO | Job execution for 10:35:25 started
+2026-04-15 11:35:25,024 | ERROR | Job execution for 10:35:25 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:35:30,026 | INFO | Job execution for 10:35:30 started
+2026-04-15 11:35:30,027 | ERROR | Job execution for 10:35:30 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:35:35,028 | INFO | Job execution for 10:35:35 started
+2026-04-15 11:35:35,028 | ERROR | Job execution for 10:35:35 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:35:40,029 | INFO | Job execution for 10:35:40 started
+2026-04-15 11:35:40,029 | ERROR | Job execution for 10:35:40 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:35:45,030 | INFO | Job execution for 10:35:45 started
+2026-04-15 11:35:45,030 | ERROR | Job execution for 10:35:45 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:35:50,031 | INFO | Job execution for 10:35:50 started
+2026-04-15 11:35:50,031 | ERROR | Job execution for 10:35:50 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:35:55,032 | INFO | Job execution for 10:35:55 started
+2026-04-15 11:35:55,033 | ERROR | Job execution for 10:35:55 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:38:05,457 | INFO | Scheduler stopped manually
+2026-04-15 11:38:05,460 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/7f29282d-038e-41f7-b0d4-8c71d374ae92
+2026-04-15 11:38:09,543 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022AC4BCDFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7f29282d-038e-41f7-b0d4-8c71d374ae92
+2026-04-15 11:38:13,646 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022AC4BCE7D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7f29282d-038e-41f7-b0d4-8c71d374ae92
+2026-04-15 11:41:22,726 | INFO | Scheduler started
+2026-04-15 11:45:02,751 | INFO | Job execution for 10:45:02 started
+2026-04-15 11:46:02,841 | ERROR | Job execution for 10:45:02 failed: Data table not found
+2026-04-15 11:50:02,970 | INFO | Job execution for 10:50:02 started
+2026-04-15 11:50:12,399 | ERROR | Job execution for 10:50:02 failed: Data table not found
+2026-04-15 11:50:17,401 | INFO | Job execution for 10:50:17 started
+2026-04-15 11:50:27,519 | ERROR | Job execution for 10:50:17 failed: Data table not found
+2026-04-15 11:50:32,520 | INFO | Job execution for 10:50:32 started
+2026-04-15 11:50:40,796 | ERROR | Job execution for 10:50:32 failed: Data table not found
+2026-04-15 11:50:45,797 | INFO | Job execution for 10:50:45 started
+2026-04-15 11:50:53,982 | ERROR | Job execution for 10:50:45 failed: Data table not found
+2026-04-15 11:50:58,983 | INFO | Job execution for 10:50:58 started
+2026-04-15 11:51:06,313 | INFO | Scheduler stopped manually
+2026-04-15 11:51:06,318 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/a02c9f2c-6d0b-4df0-bdf1-c8495589c60b
+2026-04-15 11:51:10,364 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021D00EBDD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a02c9f2c-6d0b-4df0-bdf1-c8495589c60b
+2026-04-15 11:51:14,456 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021D00EC4550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a02c9f2c-6d0b-4df0-bdf1-c8495589c60b
+2026-04-15 11:52:17,543 | INFO | Scheduler started
+2026-04-15 11:55:02,570 | INFO | Job execution for 10:55:02 started
+2026-04-15 11:55:02,570 | ERROR | Job execution for 10:55:02 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:55:07,571 | INFO | Job execution for 10:55:07 started
+2026-04-15 11:55:07,571 | ERROR | Job execution for 10:55:07 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:55:12,575 | INFO | Job execution for 10:55:12 started
+2026-04-15 11:55:12,576 | ERROR | Job execution for 10:55:12 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:55:17,576 | INFO | Job execution for 10:55:17 started
+2026-04-15 11:55:17,576 | ERROR | Job execution for 10:55:17 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:55:22,578 | INFO | Job execution for 10:55:22 started
+2026-04-15 11:55:22,578 | ERROR | Job execution for 10:55:22 failed: 'RNPScraper' object has no attribute '_is_initialized'
+2026-04-15 11:55:26,955 | INFO | Scheduler stopped manually
+2026-04-15 11:55:26,966 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/5b19ab10-61dd-40a4-83f0-2bfdc5c98d0a
+2026-04-15 11:55:31,064 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000205B09DDF50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5b19ab10-61dd-40a4-83f0-2bfdc5c98d0a
+2026-04-15 11:55:35,146 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000205B09DE6D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5b19ab10-61dd-40a4-83f0-2bfdc5c98d0a
+2026-04-15 12:11:17,381 | INFO | Scheduler started
+2026-04-15 12:12:00,697 | INFO | Scheduler stopped manually
+2026-04-15 12:12:00,702 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/7d05e02f-403b-4d19-9eef-4fd663e3ebe6
+2026-04-15 12:12:04,734 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001848C470A10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7d05e02f-403b-4d19-9eef-4fd663e3ebe6
+2026-04-15 12:12:08,845 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001848C471A90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7d05e02f-403b-4d19-9eef-4fd663e3ebe6
+2026-04-15 12:15:29,453 | WARNING | Problem reading geckodriver versions: error sending request for url (https://raw.githubusercontent.com/SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json). Using latest geckodriver version
+2026-04-15 12:15:37,372 | INFO | Scheduler started
+2026-04-15 12:15:37,375 | INFO | Job execution for 11:15:37 started
+2026-04-15 12:15:53,804 | ERROR | Job execution for 11:15:37 failed: [WinError 3] The system cannot find the path specified: 'data/xml'
+2026-04-15 12:15:58,808 | INFO | Job execution for 11:15:58 started
+2026-04-15 12:16:11,253 | ERROR | Job execution for 11:15:58 failed: Data table not found
+2026-04-15 12:20:01,386 | INFO | Job execution for 11:20:01 started
+2026-04-15 12:20:13,092 | ERROR | Job execution for 11:20:01 failed: Data table not found
+2026-04-15 12:20:18,093 | INFO | Job execution for 11:20:18 started
+2026-04-15 12:20:28,285 | INFO | Scheduler stopped manually
+2026-04-15 12:20:28,290 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/c9dbe275-d05a-4354-a780-e9c7f49d315e
+2026-04-15 12:20:32,374 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021F2FD99710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c9dbe275-d05a-4354-a780-e9c7f49d315e
+2026-04-15 12:20:36,420 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021F2FD98C50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c9dbe275-d05a-4354-a780-e9c7f49d315e
+2026-04-15 12:27:19,311 | INFO | Scheduler started
+2026-04-15 12:30:04,377 | INFO | Job execution for 11:30:04 started
+2026-04-15 12:30:19,208 | ERROR | Job execution for 11:30:04 failed: Data table not found
+2026-04-15 12:30:24,209 | INFO | Job execution for 11:30:24 started
+2026-04-15 12:31:26,112 | ERROR | Job execution for 11:30:24 failed: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2026-04-15 12:35:01,233 | INFO | Job execution for 11:35:01 started
+2026-04-15 12:36:03,055 | ERROR | Job execution for 11:35:01 failed: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2026-04-15 12:39:59,747 | INFO | Scheduler stopped manually
+2026-04-15 12:39:59,753 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/4fd702e2-9252-4622-9f86-8d4136d8d7ba
+2026-04-15 12:40:03,832 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D3F4B2F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4fd702e2-9252-4622-9f86-8d4136d8d7ba
+2026-04-15 12:40:07,952 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D3F4B2350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4fd702e2-9252-4622-9f86-8d4136d8d7ba
+2026-04-15 12:43:01,315 | INFO | Scheduler started
+2026-04-15 12:45:01,339 | INFO | Job execution for 11:45:01 started
+2026-04-15 12:45:16,630 | ERROR | Job execution for 11:45:01 failed: Data table not found
+2026-04-15 12:45:21,632 | INFO | Job execution for 11:45:21 started
+2026-04-15 12:45:36,753 | INFO | Scheduler stopped manually
+2026-04-15 12:45:36,759 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/94d2c0d6-3d78-4cbd-8644-58911c18c0dc
+2026-04-15 12:49:22,022 | INFO | Scheduler started
+2026-04-15 12:50:02,028 | INFO | Job execution for 11:50:02 started
+2026-04-15 12:50:16,240 | ERROR | Job execution for 11:50:02 failed: Data table not found
+2026-04-15 12:53:39,527 | INFO | Scheduler stopped manually
+2026-04-15 12:53:43,592 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015CFF85BCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6cd68006-61ab-4813-8e6e-c2479cfda630
+2026-04-15 12:53:47,707 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015D02CD2690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6cd68006-61ab-4813-8e6e-c2479cfda630
+2026-04-15 12:53:51,770 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015D02CD2B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6cd68006-61ab-4813-8e6e-c2479cfda630
+2026-04-15 13:01:08,812 | INFO | Scheduler started
+2026-04-15 13:01:27,561 | INFO | Scheduler stopped manually
+2026-04-15 13:01:27,565 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/6bb1be67-3471-413a-8039-0d929b778300
+2026-04-15 13:01:31,635 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000220CA971BD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6bb1be67-3471-413a-8039-0d929b778300
+2026-04-15 13:01:35,700 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000220CA9723D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6bb1be67-3471-413a-8039-0d929b778300
+2026-04-15 13:02:35,965 | INFO | Scheduler started
+2026-04-15 13:03:00,969 | INFO | Job execution for 12:03:00 started
+2026-04-15 13:03:10,863 | ERROR | Job execution for 12:03:00 failed: Data table not found
+2026-04-15 13:03:15,864 | INFO | Job execution for 12:03:15 started
+2026-04-15 13:04:17,211 | ERROR | Job execution for 12:03:15 failed: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2026-04-15 13:04:35,959 | INFO | Scheduler stopped manually
+2026-04-15 13:04:35,969 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/aaffc947-3fdf-4686-8a21-3c958478bd86
+2026-04-15 13:04:40,071 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002014C7E2F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/aaffc947-3fdf-4686-8a21-3c958478bd86
+2026-04-15 13:04:44,151 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002014C7E2890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/aaffc947-3fdf-4686-8a21-3c958478bd86
+2026-04-15 13:05:45,332 | INFO | Scheduler started
+2026-04-15 13:05:45,333 | INFO | Job execution for 12:05:45 started
+2026-04-15 13:05:59,845 | ERROR | Job execution for 12:05:45 failed: Data table not found
+2026-04-15 13:09:33,655 | INFO | Scheduler stopped manually
+2026-04-15 13:09:33,660 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/94c0e539-b5be-41fa-86e5-7d34da79b1aa
+2026-04-15 13:09:37,761 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BCF1272050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/94c0e539-b5be-41fa-86e5-7d34da79b1aa
+2026-04-15 13:09:41,848 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BCF1273490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/94c0e539-b5be-41fa-86e5-7d34da79b1aa
+2026-04-15 13:10:11,593 | INFO | Scheduler started
+2026-04-15 13:10:11,595 | INFO | Job execution for 12:10:11 started
+2026-04-15 13:10:25,500 | ERROR | Job execution for 12:10:11 failed: Data table not found
+2026-04-15 13:10:30,501 | INFO | Job execution for 12:10:30 started
+2026-04-15 13:11:31,662 | ERROR | Job execution for 12:10:30 failed: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2026-04-15 13:11:37,273 | INFO | Scheduler stopped manually
+2026-04-15 13:11:37,280 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/264eb460-1845-443b-a2f7-68248b3611f7
+2026-04-15 13:11:41,372 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028FE3572F90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/264eb460-1845-443b-a2f7-68248b3611f7
+2026-04-15 13:11:45,466 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028FE3572690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/264eb460-1845-443b-a2f7-68248b3611f7
+2026-04-15 13:35:06,269 | WARNING | Problem reading geckodriver versions: error sending request for url (https://raw.githubusercontent.com/SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json). Using latest geckodriver version
+2026-04-15 13:35:13,652 | INFO | Scheduler started
+2026-04-15 13:35:13,653 | INFO | Job execution for 12:35:13 started
+2026-04-15 13:35:35,659 | ERROR | Job execution for 12:35:13 failed: [WinError 3] The system cannot find the path specified: 'data/xml'
+2026-04-15 13:35:40,660 | INFO | Job execution for 12:35:40 started
+2026-04-15 13:36:41,837 | ERROR | Job execution for 12:35:40 failed: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2026-04-15 13:40:01,864 | INFO | Job execution for 12:40:01 started
+2026-04-15 13:41:03,230 | ERROR | Job execution for 12:40:01 failed: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2026-04-15 13:42:18,302 | INFO | Scheduler stopped manually
+2026-04-15 13:42:18,305 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/582374f1-047e-4373-9a66-de10c97245bf
+2026-04-15 13:42:22,402 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1D7479C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/582374f1-047e-4373-9a66-de10c97245bf
+2026-04-15 13:42:26,507 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1D7478890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/582374f1-047e-4373-9a66-de10c97245bf
+2026-04-15 17:07:24,445 | INFO | Scheduler started
+2026-04-15 17:07:24,447 | INFO | Job execution for 16:07:24 started
+2026-04-15 17:07:49,254 | INFO | Job execution for 16:07:49 started
+2026-04-15 17:08:50,643 | ERROR | Job execution for 16:07:49 failed: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2026-04-15 17:09:36,476 | INFO | Scheduler stopped manually
+2026-04-15 17:09:40,537 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002418387D5D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6442e057-5a7d-485b-b934-137006b2fbed
+2026-04-15 17:09:44,623 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024183889390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6442e057-5a7d-485b-b934-137006b2fbed
+2026-04-15 17:09:48,707 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002418388AE50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6442e057-5a7d-485b-b934-137006b2fbed
+2026-04-15 17:20:15,454 | INFO | Scheduler started
+2026-04-15 17:20:15,455 | INFO | Job execution for 16:20:15 started
+2026-04-15 17:21:54,470 | INFO | Scheduler stopped manually
+2026-04-15 17:21:54,477 | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/b7a1fd8c-7426-43ee-85c7-5bcd8cef2cee
+2026-04-15 17:21:58,532 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000278F97D1E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b7a1fd8c-7426-43ee-85c7-5bcd8cef2cee
+2026-04-15 17:22:02,643 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000278F97D2590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b7a1fd8c-7426-43ee-85c7-5bcd8cef2cee
