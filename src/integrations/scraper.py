@@ -4,6 +4,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 from selenium import webdriver
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -16,7 +17,8 @@ from utils.logger import setup_logger
 
 class RNPScraper:
     def __init__(self):
-        self.url = "https://rnp.unicorn.com/NOM04"
+        self._initialized = False
+        self.url = "https://rnp.unicorn.com"
         self.driver = self._init_driver()
         self.wait = WebDriverWait(self.driver, 60)
         self.logger = setup_logger()
@@ -24,7 +26,8 @@ class RNPScraper:
     def _init_driver(self):
         options = Options()
         options.set_preference("detach", True)
-        return webdriver.Firefox(options=options)
+        service = Service()
+        return webdriver.Firefox(service=service, options=options)
 
     def open_site(self):
         self.driver.get(self.url)
@@ -72,13 +75,27 @@ class RNPScraper:
         """
         Extract table data from RNP page
         """
-        show_button = self.wait.until(
-            EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'Show Data')]"))
+        # Step 1: Click Public Access
+        public_access_button = self.wait.until(
+            EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Public')]"))
         )
-        show_button.click()
+        public_access_button.click()
 
         time.sleep(5)
 
+        # Step 2: Click Show Data
+        show_button = self.wait.until(
+            EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Show')]"))
+        )
+        show_button.click()
+
+        # Step 3: WAIT for table to appear (IMPORTANT FIX)
+        self.wait.until(
+            EC.presence_of_all_elements_located((By.TAG_NAME, "tbody"))
+        )
+
+        time.sleep(5)
+        
         tables = self.driver.find_elements(By.TAG_NAME, "tbody")
         if len(tables) < 2:
             raise Exception("Data table not found")
@@ -106,9 +123,9 @@ class RNPScraper:
         return filepath
 
     def run_once(self):
-        if not self._is_initialized:
+        if not self._initialized:
             self.open_site()
-            self._is_initialized = True
+            self._initialized = True
 
         self.driver.refresh()
         self._set_business_day_if_needed()

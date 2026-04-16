@@ -1,4 +1,5 @@
 import time
+import winsound
 import pytz
 import logging
 from datetime import datetime, timezone
@@ -10,7 +11,10 @@ from core.config import XML_DIR
 
 from services.validation_service import ValidationService
 from services.alert_service import AlertService
+from integrations.xml_monitor import DSXMLMonitor
 from utils.logger import setup_logger
+from utils.file_utils import ensure_dir
+
 
 class JobScheduler:
 
@@ -20,10 +24,13 @@ class JobScheduler:
         self.scraper = RNPScraper()
         self.validator = ValidationService()
         self.alerter = AlertService()
+        self.monitor = DSXMLMonitor(XML_DIR)
 
         self.last_execution = None
 
     def run(self):
+        ensure_dir(XML_DIR)
+
         """
         Main scheduler loop
         """
@@ -56,13 +63,23 @@ class JobScheduler:
         now_key = time.time()
 
         # Prevent duplicate execution within same window
-        if self.last_execution and (now_key - self.last_execution < 60):
+        if self.last_execution and (now_key - self.last_execution < 10):
             return
 
         self.last_execution = now_key
             
         try:
             logging.info(f"Job execution for {now.strftime('%H:%M:%S')} started")
+
+            while True:
+                new_files = self.monitor.monitor()
+                if new_files:
+                    print(f"🆕 New DS file(s) detected: {new_files}")
+                    break
+                else:
+                    winsound.Beep(2000, 3000)  # Beep at 2000 Hz for 3 second
+                    print("⏳ Still waiting... No new DS file yet.")
+                    time.sleep(60)  # Wait 60 seconds before checking again
 
             # 1. SCRAPE DATA
             csv_file = self.scraper.run_once()

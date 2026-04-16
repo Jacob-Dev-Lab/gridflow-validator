@@ -29,4 +29,4 @@ def should_run_now():
     Prevents scheduler duplication bugs
     """
     now = get_london_time()
-    return now.minute % 45 == 0
+    return now.minute % 5 == 0
