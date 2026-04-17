@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 import pytz
 
 
@@ -28,5 +28,6 @@ def should_run_now():
     Centralized execution rule (45-minute logic)
     Prevents scheduler duplication bugs
     """
-    now = get_london_time()
-    return now.minute % 5 == 0
+    now = datetime.now(timezone.utc).replace(tzinfo=pytz.utc)
+    
+    return now.minute % 45 == 0
