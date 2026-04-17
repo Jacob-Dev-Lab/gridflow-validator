@@ -1,28 +1,50 @@
-# Byte-compiled / cache
+# =========================
+# Python cache
+# =========================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+.pytest_cache/
 
-# Environment
+# =========================
+# Virtual environments
+# =========================
 venv/
 env/
 ENV/
-*.env
+
+# =========================
+# Environment variables
+# =========================
 .env
 
-# System files
-.DS_Store
-Thumbs.db
-
-# IDE/editor folders
+# =========================
+# IDEs
+# =========================
 .vscode/
 .idea/
 
-# Python test cache
-.pytest_cache/
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
 
-# Data files/logs
-.csv
-.xml
-.log
+# =========================
+# Logs (safe to ignore)
+# =========================
+logs/
+*.log
+
+# =========================
+# Data outputs (IMPORTANT: adjust based on needs)
+# =========================
+data/csv/
+data/xml/
+
+# =========================
+# Selenium / browser artifacts
+# =========================
+geckodriver.log
+selenium-debug.log

@@ -26,7 +26,7 @@ class JobScheduler:
         self.alerter = AlertService()
         self.monitor = DSXMLMonitor(XML_DIR)
 
-        self.last_execution = None
+        self.last_execution_key = None
 
     def run(self):
         ensure_dir(XML_DIR)
@@ -38,12 +38,24 @@ class JobScheduler:
         print("🚀 Scheduler started...")
 
         try:
+            self.scraper.open_site()
+
             while True:
                 try:
-                    if should_run_now():
+                    now = datetime.now(timezone.utc).replace(tzinfo=pytz.utc)
+                    local_tz = pytz.timezone("Europe/London") # Define local time zone
+                    local_time = now.astimezone(local_tz)  # Convert to local time zone
+
+                    current_hour = local_time.hour # Extracts the current Hour of the day
+                    current_offset = local_time.utcoffset() # Extracts the current UTC offset
+                    current_execution_key = (current_hour, current_offset)
+
+                    # Check if it's 45 minutes past the hour
+                    if current_execution_key != self.last_execution_key and should_run_now():
                         self.execute_job()
 
                     time.sleep(5)
+                    self.last_execution_key = current_execution_key
 
                 except Exception as e:
                     self.logger.error(f"Scheduler loop error: {e}")
@@ -60,16 +72,12 @@ class JobScheduler:
         FULL PIPELINE EXECUTION
         """
         now = datetime.now(timezone.utc).replace(tzinfo=pytz.utc)
-        now_key = time.time()
 
-        # Prevent duplicate execution within same window
-        if self.last_execution and (now_key - self.last_execution < 10):
-            return
-
-        self.last_execution = now_key
+        # 1. SCRAPE DATA
+        csv_file = self.scraper.run_once()
             
         try:
-            logging.info(f"Job execution for {now.strftime('%H:%M:%S')} started")
+            logging.info(f"Validation execution for {now.strftime('%H:%M:%S')} started")
 
             while True:
                 new_files = self.monitor.monitor()
@@ -80,9 +88,6 @@ class JobScheduler:
                     winsound.Beep(2000, 3000)  # Beep at 2000 Hz for 3 second
                     print("⏳ Still waiting... No new DS file yet.")
                     time.sleep(60)  # Wait 60 seconds before checking again
-
-            # 1. SCRAPE DATA
-            csv_file = self.scraper.run_once()
 
             # 2. FIND XML FILE
             xml_file = get_latest_file(XML_DIR)

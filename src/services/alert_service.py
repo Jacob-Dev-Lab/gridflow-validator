@@ -49,7 +49,7 @@ class AlertService:
 
             Please investigate immediately.
 
-            📢 Suggested Correct Flow Value: {result.csv_value}
+            Suggested Correct Flow Value: {result.csv_value}
             """
 
     def _beep_alert(self):

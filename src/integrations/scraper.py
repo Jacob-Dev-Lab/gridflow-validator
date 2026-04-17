@@ -1,7 +1,8 @@
 import os
 import time
+import pytz
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
@@ -18,7 +19,7 @@ from utils.logger import setup_logger
 class RNPScraper:
     def __init__(self):
         self._initialized = False
-        self.url = "https://rnp.unicorn.com"
+        self.url = "https://rnp.unicorn.com/NOM04"
         self.driver = self._init_driver()
         self.wait = WebDriverWait(self.driver, 60)
         self.logger = setup_logger()
@@ -75,13 +76,14 @@ class RNPScraper:
         """
         Extract table data from RNP page
         """
-        # Step 1: Click Public Access
-        public_access_button = self.wait.until(
-            EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Public')]"))
-        )
-        public_access_button.click()
+        now = datetime.now(timezone.utc).replace(tzinfo=pytz.utc)
+        local_tz = pytz.timezone("Europe/London") # Define local time zone
+        local_time = now.astimezone(local_tz)  # Convert to local time zone
 
-        time.sleep(5)
+        print(f"\n⏰ Running RNP scrape at {local_time.strftime('%H:%M:%S')}")
+        self.logger.info(f"Triggering scrape at {local_time.strftime('%H:%M')}")
+
+        time.sleep(3)
 
         # Step 2: Click Show Data
         show_button = self.wait.until(
@@ -95,7 +97,7 @@ class RNPScraper:
         )
 
         time.sleep(5)
-        
+
         tables = self.driver.find_elements(By.TAG_NAME, "tbody")
         if len(tables) < 2:
             raise Exception("Data table not found")
@@ -106,6 +108,10 @@ class RNPScraper:
         for row in rows:
             cols = row.find_elements(By.TAG_NAME, "td")
             data.append([c.text for c in cols])
+
+        # Handle empty result
+        if not data:
+            self.logger.warning("No data extracted.")
 
         return data
 
@@ -121,6 +127,20 @@ class RNPScraper:
 
         print(f"✅ Saved: {filepath}")
         return filepath
+    
+    def _is_driver_alive(self):
+        try:
+            _ = self.driver.current_url
+            return True
+        except:
+            return False
+
+    def _ensure_driver(self):
+        if not self._is_driver_alive():
+            self.logger.warning("Driver session lost. Restarting browser...")
+            self.driver = self._init_driver()
+            self.wait = WebDriverWait(self.driver, 60)
+            self.open_site()
 
     def run_once(self):
         if not self._initialized:
